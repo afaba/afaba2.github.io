@@ -1,0 +1,1453 @@
+body
+  overflow-x: hidden
+
+.header
+  height: 100%
+  background: url(../img/header-bg.jpg) no-repeat center
+  background-size: cover
+  &-logo
+    display: inline-block
+    margin-bottom: 26px
+    margin-right: 10px
+    max-width: 38%
+  &-logo-p
+    font-family: MuseoCyrl-700
+    font-size: 16px
+    color: #fffffe
+    display: inline-block
+    margin: 0
+    padding: 0 0 0 17px
+    border-left: 1px solid
+  &-logo-position
+    margin-top: 30px
+  &-number-position
+    text-align: right
+    margin-top: 15px  
+  &-number
+    display: inline-block
+    font-family: MuseoCyrl-900
+    font-size: 28px
+    color: #fffffe
+    border-bottom: 3px dashed
+    margin: 0
+  &-btn
+    display: inline-block
+    font-family: MuseoCyrl-700
+    font-size: 22px
+    text-decoration: none
+    padding: 10px
+    border: 5px solid
+    border-color: #ffc700
+    color: #fffffe
+    margin-left: 4%
+    &:hover
+      text-decoration: none
+      color: #fffffe
+    &:focus
+      text-decoration: none
+  &-title
+    font-family: MuseoCyrl-900
+    font-size: 42px
+    color: #fffffe
+    text-align: left
+    margin-top: 38%
+  &-title-span
+    font-size: 22px
+  &-title-p
+    font-family: MuseoCyrl-700
+    font-size: 16px
+    color: #fffffe 
+    margin-bottom: 30px 
+  &-btn-2
+    font-family: MuseoCyrl-700
+    color: #fffffe
+    padding: 15px 23px
+    background: #ffc700
+    border-radius: 21px
+    font-size: 24px
+    &:hover
+      text-decoration: none
+      color: #fffffe
+    &:focus
+      text-decoration: none
+  &-margin
+    margin-bottom: 40px
+.slider
+  margin-top: 50px
+  background: url(../img/choice-bg.jpg)
+  &-img-1
+    width: 100%
+  &-img-2
+    width: 100%
+  &-text-1
+    padding: 0 30px
+    margin-top: 10%
+    background: #fff
+    h2
+      font-family: MuseoCyrl-500
+      font-size: 26px
+    p
+      font-family: MuseoCyrl-500
+      font-size: 15px  
+  &-text-2
+    width: 48%
+    margin-top: 5% 
+    background: #fff
+    padding: 0 30px
+    h2
+      font-family: MuseoCyrl-500
+      font-size: 26px
+    p
+      font-family: MuseoCyrl-500
+      font-size: 15px  
+    
+  &-text-3
+    float: right
+    margin-top: 5%
+    padding: 0 30px
+    background: #fff
+    h2
+      font-family: MuseoCyrl-500
+      font-size: 26px
+    p
+      font-family: MuseoCyrl-500  
+      font-size: 15px     
+.choice
+  height: 100%
+  background: url(../img/choice-bg.jpg)
+  position: relative
+  z-index: 100
+  &:after
+    content: ''
+    width: 50%
+    height: 100%
+    position: absolute
+    background: inherit
+    z-index: -1
+    bottom: 0
+    transform-origin: left bottom
+    transform: skewY(25deg)
+  &:before
+    content: ''
+    width: 50%
+    height: 100%
+    position: absolute
+    background: inherit
+    z-index: -1
+    bottom: 0
+    right: 0
+    transform-origin: right bottom
+    transform: skewY(-25deg)
+  &-title
+    text-align: center
+    font-family: MuseoCyrl-900
+    color: #040404
+    font-size: 42px
+  &-block-2
+    text-align: center
+    position: absolute
+    bottom: -31%
+    left: 32%
+    p
+      font-family: MuseoCyrl-900
+      font-size: 22px
+      color: #020202
+    a
+      font-family: MuseoCyrl-900 
+      font-size: 22px
+      padding: 14px 36px
+      background: #ffc700
+      border-radius: 21px 
+      color: #fcfbfb
+      &:hover
+        text-decoration: none
+      &:focus
+        text-decoration: none
+
+.options
+  height: 100%
+  background: url(../img/options-bg.jpg) no-repeat center
+  background-size: cover
+  position: relative
+  img
+    max-width: 82%
+    width: auto
+  &-dishwasher
+      position: absolute
+      bottom: 2.3%
+      left: -7%
+      max-width: 35%  
+  h1
+    font-family: MuseoCyrl-900
+    font-size: 42px
+    color: #fefefc
+  h2
+    font-family: MuseoCyrl-700
+    font-size: 20px
+    text-align: center
+    margin-top: 19% 
+    color: #fdfcfc 
+  p
+    font-family: MuseoCyrl-700
+    font-size: 22px
+    color: #fefefc
+  &-block-1
+    margin-top: 33%
+    text-align: center
+  &-price-1
+    text-align: center
+    position: absolute
+    top: 31.5%
+    left: 4.6%
+    p
+      display: inline-block
+      font-family: MuseoCyrl-900
+      font-size: 15px
+      position: relative 
+  &-price-2
+    text-align: center
+    position: absolute
+    top: 31.5%
+    left: 27.2%
+    p
+      font-family: MuseoCyrl-900
+      font-size: 15px
+      position: relative 
+  &-price-3
+    text-align: center
+    position: absolute
+    top: 31.5%
+    left: 49.55%
+    p
+      display: inline-block
+      font-family: MuseoCyrl-900
+      font-size: 15px
+      position: relative
+  &-price-4
+    text-align: center
+    position: absolute
+    top: 31.5%
+    left: 72.3%
+    p
+      display: inline-block
+      font-family: MuseoCyrl-900
+      font-size: 15px
+      position: relative    
+  &-p1
+    &:before
+      content: "|"
+      position: absolute
+      top: -110%
+      left: 43%
+  &-p2
+    &:before
+      content: "|"
+      position: absolute
+      top: -110%
+      left: 49%
+  &-p3
+    &:before
+      content: "|"
+      position: absolute
+      top: -110%
+      left: 48%
+  &-p4
+    &:before
+      content: "|"
+      position: absolute
+      top: -110%
+      left: 43%
+  &-block-2
+    h2
+      font-family: MuseoCyrl-900
+      font-size: 26px
+      color: #fff
+    p
+      font-family: MuseoCyrl-700
+      font-size: 18px
+      position: relative
+      &:before
+        content: url(../img/options-mark.png)
+        position: absolute
+        left: -9%
+        top: 2%        
+  &-block-2-form
+    h1
+      margin-top: 6%
+    p
+      font-family: MuseoCyrl-700
+      font-size: 22px
+      margin: 3% 0
+    form
+      margin-bottom: 14%
+    text-align: center
+    &-center-input
+      margin: 0 3%
+    &-btn
+      background: #f32b2b 
+      color: #fff
+      text-transform: uppercase
+    input
+      font-family: MuseoCyrl-700
+      font-size: 17px
+      padding: 20px 50px
+      border-radius: 25px
+      border: none
+      outline: none      
+
+
+/*** SLIDER ***/    
+select
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  position: absolute
+  top: 860%
+  left: 41.8%
+  font-family: MuseoCyrl-900
+  font-size: 36px
+  color: #fdfcfc
+  background: #151515
+  border: none
+  padding: 14px 39px
+  border-radius: 20px
+.img-slider
+  margin-top: 20%
+  text-align: center
+  &-block-1
+    display: block
+    margin-top: 2%
+    background: red
+  &-block-2
+    display: none
+    margin-top: 2%
+    background: blue
+  &-block-3
+    display: none
+    margin-top: 2%
+    background: yellow
+  &-block-4
+    display: none
+    margin-top: 2%
+    background: black
+  &-block-5
+    display: none
+    margin-top: 2%
+    background: gray  
+.ui-slider
+  margin: 0 auto !important
+.ui-widget-header
+  background: #fec200 !important
+.ui-slider-handle 
+  background: url(../img/select-btn.png) !important
+  background-size: cover !important
+  width: 45px !important
+  height: 45px !important
+  border: none !important 
+  top: -1.3em !important  
+  outline: none !important 
+.ui-slider-horizontal
+  width: 94%
+
+.info
+  height: 100%
+  background: #f6f6f6
+  img
+    max-width: 23%
+  h1
+    font-family: MuseoCyrl-900
+    font-size: 43px
+    text-align: center
+  h3
+    font-family: MuseoCyrl-700
+    font-size: 19px
+    text-align: center
+    margin-bottom: 50px  
+  &-p1
+    font-family: MuseoCyrl-900
+    font-size: 19px
+    text-align: left
+  &-p2
+    font-family: MuseoCyrl-700
+    font-size: 14px
+    text-align: left
+  &-marginb
+    margin-bottom: 5%
+      
+
+.guarantee
+  background: url(../img/guarantee-bg.jpg) no-repeat center
+  background-size: cover
+  height: 100%
+  &-block-1
+    h1
+      font-family: MuseoCyrl-900
+      font-size: 37px
+      color: #020202
+      text-align: center
+    h3
+      font-family: MuseoCyrl-500
+      font-size: 17px
+      color: #020202 
+      text-align: center
+  &-block-2
+    text-align: center
+    h1
+      font-family: MuseoCyrl-900
+      font-size: 37px
+      color: #020202
+    &-p1
+      display: inline-block
+      font-family: MuseoCyrl-900
+      font-size: 14px
+      color: #fff
+      position: relative
+      z-index: 3
+      text-align: center
+      &:before
+        content: ''
+        width: 90px
+        height: 90px
+        position: absolute
+        z-index: -1
+        top: 3%
+        left: -86%
+        background: #ffc700 
+        -webkit-transform: rotate(45deg)
+        -moz-transform: rotate(45deg)
+        -ms-transform: rotate(45deg)
+        -o-transform: rotate(45deg)
+        transform: rotate(45deg)
+    &-p2
+      display: inline-block
+      font-family: MuseoCyrl-900
+      font-size: 14px
+      color: #fff
+      position: relative
+      z-index: 3
+      text-align: center
+      &:before
+        content: ''
+        width: 90px
+        height: 90px
+        position: absolute
+        z-index: -1
+        top: 3%
+        left: -26%
+        background: #ffc700 
+        -webkit-transform: rotate(45deg)
+        -moz-transform: rotate(45deg)
+        -ms-transform: rotate(45deg)
+        -o-transform: rotate(45deg)
+        transform: rotate(45deg)    
+    span
+      font-size: 47px
+      text-align: center
+    &-plus
+      font-family: MuseoCyrl-900
+      font-size: 73px !important
+      color: #ffc700 !important
+      background: none !important
+      padding: 0 60px
+      margin-left: 10px   
+  &-block-3
+    margin-top: 2%
+    margin-bottom: 31%
+    p
+      font-family: MuseoCyrl-500
+      font-size: 17px
+      text-align: center
+    span
+      font-family: MuseoCyrl-900
+
+.value
+  background: url(../img/value-bg.jpg) no-repeat center
+  background-size: cover
+  height: 100%
+  &-block-1
+    margin-top: 3%
+    h1
+      font-family: MuseoCyrl-900
+      font-size: 42px
+      text-align: center
+      color: #fff 
+  &-block-2
+    text-align: center
+    img
+      margin-top: 4%
+      max-width: 28%
+    h3
+      font-family: MuseoCyrl-900
+      font-size: 20px
+      color: #fff
+    p
+      font-family: MuseoCyrl-500
+      font-size: 19px
+      color: #fff      
+  &-block-3
+    text-align: center
+    margin-top: 3%
+    &-input-number
+      margin: 0 3%
+    form
+      margin-top: 4%
+      margin-bottom: 4%
+    p
+      font-family: MuseoCyrl-500
+      font-size: 19px
+      text-align: center
+      color: #fff
+    &-btn
+      background: #ffc700 
+      color: #fff 
+    input
+      font-family: MuseoCyrl-700
+      font-size: 17px
+      padding: 20px 50px
+      border-radius: 25px
+      border: none
+      outline: none
+
+.why
+  background: url(../img/why-bg.jpg) no-repeat center
+  background-size: cover
+  height: 100%
+  text-align: center
+  &-logo-text
+    font-family: MuseoCyrl-900
+    text-align: right
+    img
+      margin-top: 0 !important
+    p
+      display: inline-block  
+
+  &-last-block
+    margin-bottom: 4%
+  h1
+    font-family: MuseoCyrl-900
+    font-size: 36px
+    margin-top: 5%
+  p
+    font-family: MuseoCyrl-500
+    font-size: 16px
+    color: #000000
+    margin-top: 0
+  span
+    font-family: MuseoCyrl-900
+  img
+    margin-top: 8%
+    max-width: 45%
+
+.facades
+  height: 100%
+  position: relative
+  &-square
+    position: absolute
+    bottom: -4%
+    left: 7%
+    max-width: 6%
+  &-pen
+    position: absolute
+    bottom: -10%
+    right: 0
+    max-width: 31%
+  &-title
+    text-align: center
+    font-family: MuseoCyrl-900
+    font-size: 35px
+    color: #030303    
+  button
+    text-align: center
+    color: #030303
+    font-family: MuseoCyrl-700
+    font-size: 25px
+    background: none
+    outline: none
+    border: none
+    margin: 3% 0
+    height: 100%
+    width: 100%
+    border: 4px solid #ffc700
+    border-radius: 25px
+    &:focus
+      background: #ffc700
+      color: #fff          
+.slick-initialized .slick-slide
+  text-align: center
+  display: inline-table !important
+  outline: none          
+.slider-3-mini
+  &-slide
+    margin: 1% 4%
+    width: 25% !important
+    height: 60px !important
+    text-align: center
+      
+
+             
+
+.slider-3
+  position: relative
+  text-align: center
+  margin-bottom: 8%
+  img
+    display: inline-block !important
+    margin-bottom: 6%
+    max-width: 75%
+  &-absolute
+    width: 42%
+    height: 35%
+    position: absolute
+    top: 71%
+    left: 30%
+    background: #fff
+    z-index: 5
+    h3
+      font-family: MuseoCyrl-900
+      font-size: 23px
+      color: #030303
+    p
+      font-family: MuseoCyrl-500
+      font-size: 17px
+      color: #000
+    a
+      color: #ffc700
+      text-decoration: none
+      border-bottom: 2px dotted   
+
+
+.call
+  background: url(../img/call-bg.jpg) no-repeat center
+  background-size: cover
+  height: 100%
+  &-block-1
+    h1
+      font-family: MuseoCyrl-900
+      font-size: 44px
+      color: #fff
+      text-align: center
+    h3
+      font-family: MuseoCyrl-500
+      font-size: 20px
+      color: #fff
+      text-align: center    
+  &-block-2              
+    text-align: center
+    margin-top: 3%
+    &-input-number
+      margin: 0 3%
+    form
+      margin-top: 4%
+      margin-bottom: 4%
+    h3
+      font-family: MuseoCyrl-500
+      font-size: 19px
+      text-align: center
+      color: #fff
+    &-btn
+      background: #ffc700 
+      color: #fff 
+    input
+      font-family: MuseoCyrl-700
+      font-size: 17px
+      padding: 20px 50px
+      border-radius: 25px
+      border: none
+      outline: none
+  &-block-3
+    img
+      float: right
+      max-width: 39%
+    a  
+      font-family: MuseoCyrl-500
+      font-size: 26px
+      color: #fff
+      border-bottom: 1px solid
+      text-decoration: none
+    &-margin
+      margin-top: 7%
+
+.who
+  height: 100%
+  background: #f7f7f7
+  h1
+    font-family: MuseoCyrl-900
+    font-size: 34px
+    text-align: center
+    margin-bottom: 6%
+.slider-mini
+  margin-bottom: 3%
+  img
+    margin: 0 auto
+    
+.slide
+  width: 10%      
+.slider-4
+  position: relative
+  &-slide-p
+    max-width: 55%
+    margin-bottom: 4.5%
+    font-family: MuseoCyrl-700
+    font-size: 15px
+    background: #fff
+    padding: 30px 30px
+  &-img-1
+    max-width: 143%
+    position: absolute
+    top: -14%
+    left: -5%
+  &-img-2
+    max-width: 113%
+    position: absolute
+    top: 11%
+    left: 24%
+  &-img-3
+    max-width: 52%
+    position: absolute
+    top: 6.5%
+    left: 57%
+  &-img-4  
+    max-width: 55%
+    position: absolute
+    top: 2%
+    left: 55%
+
+.how
+  text-align: center
+  background: url(../img/how-bg.jpg) no-repeat center
+  background-size: cover
+  height: 100%
+  z-index: 6
+  &-mobile
+    display: none
+  &-img-8
+    margin-bottom: 10%
+  h1
+    font-family: MuseoCyrl-900
+    font-size: 39px
+  h3
+    font-family: MuseoCyrl-500
+    font-size: 16px
+  p
+    position: absolute
+    font-family: MuseoCyrl-700
+    font-size: 13px
+    color: #000
+  &-block-2
+    position: relative
+  img
+    margin: 4.4% 0
+    max-width: 12%
+  &-p-1
+    top: 5%
+    left: 55%
+    text-align: left
+  &-p-2
+    top: 17%
+    left: 26%
+    text-align: right
+  &-p-3
+    top: 29.5%
+    left: 55%
+    text-align: left
+  &-p-4
+    top: 40.5%
+    left: 16%
+    text-align: right
+  &-p-5
+    top: 54%
+    left: 55%
+    text-align: left
+  &-p-6
+    top: 65%
+    left: 26%
+    text-align: right
+  &-p-7
+    top: 78%
+    left: 56%
+    text-align: left
+  &-p-8
+    top: 92%
+    left: 25%
+    text-align: right
+
+.reviews
+  background: url(../img/reviews-bg.jpg) no-repeat center
+  background-size: cover
+  text-align: center
+  height: 100%
+  &-margin 
+    margin-top: 4%
+  h1
+    text-align: center
+    font-family: MuseoCyrl-900
+    font-size: 39px
+    color: #000
+    margin-bottom: 5%
+.slider-5
+  margin-bottom: 5%
+  p
+    padding: 3% 0
+    margin: 0 auto
+    width: 84%
+    margin-top: -5px
+    iframe
+      margin-bottom: 0  
+  &-p
+    p
+      padding: 3% 4%
+      margin-bottom: 6%
+  p
+    font-family: MuseoCyrl-700
+    font-size: 15px 
+    background: #f6f6f6   
+
+.slider-5-mini
+  a
+    font-family: MuseoCyrl-500
+    font-size: 15px
+    color: #ffc700
+    border-bottom: 2px dotted
+    &:hover
+      text-decoration: none
+  p
+    font-family: MuseoCyrl-900
+    font-size: 23px
+    margin-bottom: 1%
+  img
+    margin: 0 auto
+    max-width: 27%
+    width: auto
+
+
+
+.contacts
+  text-align: center
+  background: url(../img/contacts-bg.jpg) no-repeat center
+  background-size: cover
+  height: 100%
+  position: relative
+  &-absolute-block
+    text-align: left
+    position: absolute
+    background: #ffc700
+    z-index: 6
+    bottom: -10%
+    left: 27%
+    width: 44%
+    height: 25%
+    z-index: 3
+    &-mobile
+      display: none
+    &:before
+      content: ""
+    
+      border: 8px solid #ffc700
+      width: 690px
+      transform: rotate(90deg)
+      top: -157%
+      left: 22%
+    h1
+      font-family: MuseoCyrl-900
+      font-size: 25px
+      color: #fff
+    p
+      font-family: MuseoCyrl-500
+      font-size: 15px
+      color: #fff
+    h2
+      font-family: MuseoCyrl-900
+      font-size: 20px
+      color: #fff       
+  &-pic
+    position: absolute
+    right: 0
+    top: 5%
+    z-index: 1
+    max-width: 33%
+  &-block-1
+    h1
+      font-family: MuseoCyrl-900
+      font-size: 44px
+      color: #fff
+  &-block-2
+    &-center-input
+      margin: 0 3%
+    h3
+      font-family: MuseoCyrl-500
+      font-size: 19px
+      text-align: center
+      color: #fff
+    &-btn
+      background: #ffc700 
+      color: #fff
+    input
+      font-family: MuseoCyrl-700
+      font-size: 17px
+      padding: 20px 50px
+      border-radius: 25px
+      border: none
+      outline: none
+      margin-top: 3%
+  &-block-3
+    margin-bottom: 19%
+    h1
+      font-family: MuseoCyrl-700
+      font-size: 44px
+      color: #fff
+    p
+      font-family: MuseoCyrl-500
+      font-size: 34px
+      position: relative
+      color: #fff
+      &:before
+        content: url(../img/contacts-phone-pic.png)
+        position: absolute
+        left: 34%
+        top: 13%
+
+.footer
+  background: url(../img/footer-bg.jpg) no-repeat center
+  background-size: cover
+  height: 100%
+  &-block-1
+    img
+      margin-top: 4%
+      margin-left: 3%
+      max-width: 27%
+  &-block-2
+    p
+      display: inline-block
+      font-family: MuseoCyrl-900
+      font-size: 30px
+      color: #fff
+    a
+      display: inline-block
+      float: right 
+      font-family: MuseoCyrl-700
+      font-size: 18px
+      color: #fff
+      padding: 20px 9px
+      background: #ffc700
+      margin-top: 2.5%
+      margin-right: 4%
+
+
+/***** АДАПТИВ *****/
+@media screen and (min-width: 1200px)
+  .choice-block-2 
+    p
+      margin-top: -77%
+  .slider-3-mini-slide
+    width: 120%       
+
+@media (min-width: 991px) and (max-width: 1200px)
+  .header-btn
+    margin-top: 3%
+  .choice-block-2 
+    p
+      margin-top: -94% 
+    a
+      font-size: 19px
+  .contacts-block-3 
+    p
+      &:before
+        left: 31%
+  .contacts-absolute-block
+    bottom: -16%
+    height: 40%
+  .contacts-absolute-block
+    &:before
+      display: none
+  .how
+    &-p-2
+      left: 21%
+    &-p-3
+      left: 56%
+    &-p-4
+      left: 10%
+    &-p-6
+      left: 22%
+    &-p-8                
+      left: 20%
+  .slider-4-slide-p
+    max-width: 100%
+  .slider-4-img-1
+    left: 33%
+    display: none !important
+  .slider-4-img-2
+    left: 37%
+    display: none !important
+  .slider-4-img-3
+    left: 66%
+    display: none !important
+  .slider-4-img-4
+    left: 62% 
+    display: none !important
+  .options 
+    img
+      max-width: 41%                 
+
+
+@media (min-width: 768px) and (max-width: 990px)
+  .header-btn
+    margin-top: 3%
+  .header-title
+    font-size: 39px
+    margin-top: 15%
+  .slider-text-2
+    width: 100% 
+  .choice-title
+    font-size: 29px
+  .choice-block-2 
+    p
+      margin-top: -124% 
+    a
+      font-size: 12px
+  .value-block-3-btn
+    margin-top: 3%
+  .slider-3-absolute 
+    h3
+      font-size: 15px
+      margin-bottom: 0
+    p
+      margin-top: 0
+      font-size: 11px
+  .slider-4-slide-p
+    max-width: 100%
+    font-size: 12px
+  .slider-4-img-1
+    max-width: 120%
+    top: -18%
+    left: 23%
+    display: none !important
+  .slider-4-img-2
+    max-width: 108%
+    top: -6%
+    left: 28%
+    display: none !important
+  .slider-4-img-3
+    max-width: 49%
+    top: -2.5%
+    left: 63%
+    display: none !important
+  .slider-4-img-4
+    max-width: 48%
+    top: -6%
+    left: 59%
+    display: none !important
+  .how
+    &-p-1
+      left: 56%
+    &-p-2
+      left: 14%
+    &-p-3
+    &-p-4
+      left: -1%
+    &-p-5
+      left: 55%
+    &-p-6
+      top: 67%
+      left: 16%
+    &-p-7
+    &-p-8
+      left: 13%
+  .facades-list 
+    li
+      display: initial
+  .slider-3-mini
+    display: none
+  .options 
+    h1
+      font-size: 36px
+    img
+      max-width: 39%        
+  .options-block-2-form 
+    input
+      font-size: 16px
+  .options-block-2-form-btn
+    margin-top: 3%
+  .info
+    h1
+      font-size: 35px
+  .guarantee-block-1 
+    h1
+      font-size: 32px
+  .guarantee-block-2 
+    h1
+      font-size: 37px
+  .value-block-1 
+    h1
+      font-size: 35px
+  .call-block-1
+    h3
+      font-size: 16px
+    h1
+      font-size: 37px
+  .call-block-2
+    &-btn
+      margin-top: 3% 
+    h3
+      font-size: 16px                                                                    
+  .contacts-block-1 
+    h1
+      font-size: 37px
+  .contacts-block-2 
+    h3
+      font-size: 16px
+  .contacts-block-3 
+    h1
+      font-size: 37px
+  .contacts-block-3
+    margin-bottom: 3% 
+    p
+      &:before
+        left: 25%
+        top: 16%            
+  .contacts-absolute-block
+    display: none
+  .contacts-absolute-block-mobile
+    display: block
+    color: #fff
+    h1 
+      font-size: 21px
+  .slick-initialized .slick-slide
+           
+
+
+
+@media (min-width: 480px) and (max-width: 767px)
+  .header-btn
+    margin-top: 3%
+  .header-number
+    font-size: 24px
+    text-align: center
+  .header-number-position
+    text-align: center  
+  .header-logo-position
+    text-align: center  
+  .header-title
+    font-size: 37px
+    margin-top: 15%
+  .slider-text-2
+    width: 100%
+  .choice-title
+    font-size: 23px
+  .choice-block-2 
+    p
+      margin-top: -211%
+      font-size: 16px 
+    a
+      font-size: 9px
+      padding: 10px 12px
+  .options 
+    h1
+      font-size: 28px
+    img
+      max-width: 39%  
+  .options-block-2 
+    h2
+      font-size: 24px
+  .options-block-2-form
+    input
+      font-size: 16px
+      padding: 16px 34px
+      margin: 2% 0
+    p
+      font-size: 16px
+  .info 
+    h1
+      font-size: 28px
+    h3
+      font-size: 13px
+  .guarantee-block-1 
+    h1
+      font-size: 28px
+  .guarantee-block-2 
+    h1
+      font-size: 28px
+  .guarantee-block-3
+    p
+      font-size: 15px
+  .value-block-1 
+    h1
+      font-size: 28px
+  .value-block-2 
+    h3
+      font-size: 18px                                  
+  .value-block-3 
+    input
+      font-size: 16px
+      padding: 16px 34px
+      margin: 2% 0
+  .why
+    h1
+      font-size: 28px
+  .slider-3
+    margin-bottom: 3%
+    img
+      max-width: 100%
+  .slider-3-absolute 
+    h3
+      font-size: 11px
+    p
+      font-size: 9px  
+  .facades-title
+    font-size: 28px
+  .call-block-1 
+    h1
+      font-size: 28px
+    h3
+      font-size: 16px
+  .call-block-2
+    input
+      font-size: 16px
+      padding: 16px 34px
+      margin: 2% 0 
+    h3
+      font-size: 16px
+  .who
+    display: none
+  .how-desctop
+    display: none
+  .how
+    p
+      position: inherit  
+  .how-mobile
+    text-align: center
+    display: block
+    &-mobile-blocks
+      text-align: center
+    img
+      text-align: right
+      max-width: 34%
+  .contacts-block-1 
+    h1
+      font-size: 28px
+  .contacts-block-2 
+    h3
+      font-size: 13px
+    input
+      font-size: 16px
+      padding: 16px 34px
+      margin: 2% 0 
+  .contacts-block-3 
+    h1
+      font-size: 28px
+    p
+      font-size: 26px
+  .contacts-block-3
+    margin-bottom: 10% 
+    p
+      &:before
+        left: 15%
+        top: 4%
+  .contacts-absolute-block
+    display: none      
+  .contacts-absolute-block-mobile
+    display: block
+    color: #fff
+    h1 
+      font-size: 21px
+  .footer-block-1
+    text-align: center
+  .footer-block-2
+    text-align: center
+    p
+      font-size: 24px
+    a
+      font-size: 15px
+      float: none
+      margin-right: none
+      padding: 12px 13px
+  .slider-5 
+    p
+      font-size: 11px
+  .slider-5-mini 
+    p
+      font-size: 17px
+    a
+      font-size: 11px
+    img
+      max-width: 27%
+  .reviews 
+    h1
+      font-size: 28px
+  .slider-3-mini-slide
+    width: 46% !important
+    margin: 2% 2%                    
+                                      
+                                      
+
+@media (min-width: 320px) and (max-width: 479px)
+  .choice
+    display: none  
+  .options
+    select
+      font-size: 16px
+      left: 29.8%
+    p
+      font-size: 13px
+    h1
+      font-size: 23px
+    &-block-2
+      h2
+        font-size: 23px
+      p
+        font-size: 13px
+        &:before
+          left: -11%       
+    &-block-2-form 
+      p
+        font-size: 13px
+      input
+        font-size: 11px
+        margin: 3% 0        
+  .header
+    text-align: center            
+  .header-btn
+    margin-top: 5%
+  .header-number-position
+    text-align: center  
+  .header-logo-position
+    text-align: center
+  .header-title
+    font-size: 27px
+    text-align: center
+    margin-top: 15%
+  .header-btn-2
+    font-size: 17px
+  .info
+    h1
+      font-size: 28px
+    h3
+      font-size: 14px
+    &-p1
+      font-size: 18px
+    &-p2
+      font-size: 12px
+  .guarantee-block-1 
+    h1
+      font-size: 21px
+    h3
+      font-size: 14px
+  .guarantee-block-2
+    h1
+      font-size: 21px
+  .guarantee-block-2 
+    span
+      font-size: 40px
+  .guarantee-block-2-p1
+    color: #000
+    &:before
+      display: none
+  .guarantee-block-2-p2
+    margin-left: 9%
+    color: #000
+    &:before
+      display: none
+  .guarantee-block-2-plus
+    display: none        
+  .guarantee-block-3 
+    p
+      font-size: 15px
+  .value-block-1 
+    h1
+      font-size: 21px
+  .value-block-2 
+    h3
+      font-size: 16px
+    p
+      font-size: 13px  
+  .value-block-3 
+    p
+      font-size: 15px
+    input
+      font-size: 13px
+      padding: 16px 34px
+      margin: 2% 0
+  .why 
+    h1
+      font-size: 21px
+    p
+      font-size: 12px
+  .facades
+    display: none
+  .call-block-1 
+    h1
+      font-size: 20px
+    h3
+      font-size: 14px
+  .call-block-2 
+    h3
+      font-size: 14px
+    input
+      font-size: 13px
+      padding: 16px 34px
+      margin: 2% 0
+  .call-block-3 
+    a
+      font-size: 18px
+  .who
+    display: none
+  .reviews
+    display: none
+  .how
+    p
+      position: inherit 
+    h1
+      font-size: 21px
+    &-desctop
+      display: none
+    &-mobile  
+      display: block
+      p
+        text-align: center
+      img
+        margin: 19% 0
+        max-width: 32%
+  .contacts-block-2
+    h3
+      font-size: 12px 
+    input
+      font-size: 13px
+      padding: 16px 34px
+      margin: 2% 0
+  .contacts-block-1
+    h1
+      font-size: 21px
+  .contacts-block-3 
+    h1
+      font-size: 22px
+    p
+      font-size: 22px
+      &:before
+        left: 19% 
+  .contacts-block-3 
+    p
+      &:before
+        left: 5%
+        top: 2%
+  .contacts-absolute-block
+    display: none
+  .contacts-absolute-block-mobile
+    display: block
+    color: #fff
+    h1 
+      font-size: 21px
+  .footer
+    text-align: center
+  .footer-block-2 
+    p
+      font-size: 24px
+    a
+      font-size: 15px
+      float: none
+      margin: 0
+      padding: 12px 13px                            
+
+     
+
+
+      
+             
